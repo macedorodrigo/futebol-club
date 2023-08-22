@@ -26,4 +26,17 @@ export type ServiceResponseRole = {
   status:number,
 };
 
+export type returnPs = {
+  name: string,
+  totalPoints: number,
+  totalGames: number,
+  totalVictories: number,
+  totalDraws: number,
+  totalLosses: number,
+  goalsFavor: number,
+  goalsOwn: number,
+  goalsBalance:number,
+  efficiency: string,
+};
+
 export type ServiceResponse<T> = ServiceResponseError | ServiceResponseSuccess<T>;
