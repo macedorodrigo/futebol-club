@@ -1,11 +1,8 @@
 import { Router } from 'express';
-// import TeamsRouter from './TeamsRoutes';
-// import LoginRouter from './LoginRoutes';
+import TeamsRouter from './Teams.routes';
 
 const router = Router();
 
-router.get('/', (req, res) => res.json({ ok: true }));
-// router.use('/teams', LoginRouter);
-// router.use('/login', TeamsRouter);
+router.use('/teams', TeamsRouter);
 
 export default router;

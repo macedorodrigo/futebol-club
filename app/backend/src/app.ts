@@ -10,6 +10,7 @@ class App {
     this.config();
     this.routes();
 
+    router.get('/', (req, res) => res.json({ ok: true }));
     // Não remover essa rota
   }
 
