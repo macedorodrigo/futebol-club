@@ -1,9 +1,7 @@
 import UsersModel from '../database/models/UsersModel';
 import Login from '../Interfaces/Login';
 import { ServiceResponseRole, ServiceResponseLogin } from '../Interfaces/ServiceResponse';
-// import { ServiceResponseLogin } from '../Interfaces/ServiceResponse';
 import { signJwt, verifyJwt } from '../utils/jwt';
-// import { signJwt } from '../utils/jwt';
 
 export default class LoginService {
   constructor(
