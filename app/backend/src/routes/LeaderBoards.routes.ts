@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import LeaderBoardsController from '../controllers/LeaderBoards.Controller';
+import LeaderBoardsController from '../Controller/LeaderBoards.Controller';
 
 const authRouter = Router();
 

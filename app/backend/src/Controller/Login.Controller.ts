@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 // import { ServiceResponseRole, ServiceResponseLogin } from '../Interfaces/ServiceResponse';
 import { ServiceResponseLogin } from '../Interfaces/ServiceResponse';
-import LoginService from '../services/Login.Service';
+import LoginService from '../Service/Login.Service';
 import Token from '../Interfaces/Token';
 
 export default class LoginController {

@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import TeamsService from '../services/Teams.Service';
+import TeamsService from '../Service/Teams.Service';
 
 export default class TeamController {
   constructor(

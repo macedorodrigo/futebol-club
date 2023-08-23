@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import TeamsController from '../controllers/Teams.Controller';
+import TeamsController from '../Controller/Teams.Controller';
 
 const authRouter = Router();
 const teamsController = new TeamsController();

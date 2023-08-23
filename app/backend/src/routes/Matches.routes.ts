@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import MatchesController from '../controllers/Matches.Controller';
+import MatchesController from '../Controller/Matches.Controller';
 import LoginValidations from '../middlewares/LoginValidation';
 
 const authRouter = Router();
